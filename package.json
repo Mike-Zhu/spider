@@ -1,0 +1,34 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "a spider for wx",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "config": {
+    "vd": "/wechat/search",
+    "port": 8008,
+    "env": "FAT"
+  },
+  "keywords": [
+    "spider",
+    "wx"
+  ],
+  "author": "mike",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-ejs": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "lodash": "^4.17.10",
+    "nodemon": "^1.17.5"
+  }
+}

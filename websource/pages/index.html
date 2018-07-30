@@ -1,0 +1,14 @@
+<h3>请输入你需要搜索的公众号</h3>
+<div>
+    <span>名称</span>
+    <input type="text" id="name" />
+    <button id="search">搜索</button>
+</div>
+<script>
+    setTimeout(function(){
+        document.querySelector("#search").addEventListener("click", function () {
+            var value = document.querySelector("#name").value
+            window.location = "/search?name=" + value
+        })
+    },1000)
+</script>
